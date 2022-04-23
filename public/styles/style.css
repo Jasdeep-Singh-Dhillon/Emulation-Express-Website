@@ -1,0 +1,107 @@
+header {
+	text-align: left;
+	padding: 30px;
+	background: #202020;
+	color: white;
+	overflow: hidden;
+}
+
+h1 {
+	margin: auto 0;
+}
+
+main {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a {
+	text-decoration: none;
+	transition:  transform .5s;
+}
+
+a:hover {
+	transform: scale(1.2);
+}
+
+h4 {
+	margin-top: 30px ;
+	padding: 20px;
+	text-align: center;
+}
+
+aside {
+	justify-content: space-evenly;
+	display: flex;
+	padding: 20px;
+}
+
+figure {
+	text-align: center;
+}
+
+hr {
+	width: 90vw;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+	background: aliceblue;
+}
+
+section {
+	margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  grid-column-gap: 50px;
+}
+
+.grid-item {
+  font-size: 30px;
+}
+
+.card {
+	border-radius: 12px;
+}
+
+.card-img-top {
+	padding: 50px;
+}
+
+.current {
+	font-weight: bold;
+}
+
+#user {
+	float: right;
+	right: 0;
+	z-index: 1;
+}
+
+.user_info {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-left: 1rem;
+	text-align: left;
+}
+
+#user_avatar {
+	border-radius: 50%;
+}
+
+#user_name {
+	font-weight: bold;
+}
+
+.opposite {
+	justify-content: space-between;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+	<body>
+		<header class='d-flex opposite'>
+			<h1>Emulation</h1>
+			<%- include('partials/user.ejs') %> 
+		</header>
+
+		<main>
+			<%- include('partials/nav.ejs') %>
+			<hr>
+
+			<section>
+				<div>
+					<p>
+						Each computer consists of hardware and software. By integrating these two components a computer
+						can offer a wide range of possibilities, like creating office documents, surfing the web and
+						playing games. The strong dependency between hardware and software also introduces a risk. If
+						one of these fails, it will have influence on the computer’s operation and thereby its
+						capabilities. As each hardware device eventually will break down, accessibility to digital
+						objects is at stake. Emulation offers a solution to this problem.
+					</p>
+					<p>
+						Emulation is best described as imitating a certain computer platform or program on another
+						platform or program. In this manner, it is possible to view documents or run programs on a
+						computer not designed to do so. An emulator is itself a program that creates an extra layer
+						between an existing computer platform (host platform) and the platform to be reproduced (target
+						platform), as pictured in Figure
+					</p>
+
+					<figure>
+						<a href="https://www.kb.nl/en/organisation/research-expertise/research-on-digitisation-and-digital-preservation/emulation/what-is-emulation"
+							target="_blank">
+							<img width="260px" src="images/emulation.png" alt="Process of Emulation ">
+						</a>
+					</figure>
+				</div>
+
+				<div>
+					<h4>Digital Preservation</h4>
+					<p>
+						When dealing with digital preservation there are basically two possible strategies: migration
+						and emulation. Where emulation focuses on recreating the original computer environment,
+						migration adapts the original digital document to the current known computer environment.
+						Although original attributes can be lost, it allows easier access to the document than using an
+						emulated environment.
+					</p>
+					<p>
+						Migration is best applied to relatively simple objects such as text documents and images.
+						However, complex objects like the latest generation of PDF files, websites and computer
+						applications, are often strongly dependent on layout and functionality. Especially these
+						attributes may be affected during a migration process. That is, functionality like user
+						interaction or the interaction of a program with a computer platform may show significant
+						problems. Another disadvantage of migration is that it has to be carried out on a regular basis,
+						which increases the chance of errors.
+					</p>
+					<p>
+						Emulation is difficult, the main reason why it is not applied on a large scale in digital
+						preservation. Developing an emulator is a precise and time-consuming task, especially because
+						the emulated environment must appear authentic and must function accurately too. If future users
+						are interested in the contents of a file, migration remains the better option. When it is the
+						authentic look and feel and functionality of a file they seak, emulation is worth the effort.
+						This can be the case with PDF documents or websites. For multimedia applications, emulation is
+						in fact the only suitable preservation strategy as they require a full operating environment
+						just like the one it was created for.
+					</p>
+					<figure>
+						<a href="https://www.kb.nl/en/organisation/research-expertise/research-on-digitisation-and-digital-preservation/emulation/what-is-emulation"
+							target="_blank">
+							<img width="560px" src="images/digital_preservation.png"
+								alt="Commodore 64-emulator running Donkey Kong">
+						</a>
+					</figure>
+				</div>
+			</section>
+		</main>
+
+		<hr>
+		<footer>
+			<p>
+				CST 336: Internet Programming <br>
+				<span id="disclaimer">Disclaimer:</span> The information on this webpage is not accurate. <br>
+				It is used for academic purposes only.
+			</p>
+			<p>
+				<a href="https://www.kb.nl/en/organisation/research-expertise/research-on-digitisation-and-digital-preservation/emulation/what-is-emulation"
+					target="_blank">Source</a>
+			</p>
+			<figure>
+				<img width="150px" src="images/csumb_logo.png" alt="CSUMB Logo">
+			</figure>
+		</footer>
+
+
+	</body>
+
+</html>

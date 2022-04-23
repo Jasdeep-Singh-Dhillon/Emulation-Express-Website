@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+	<body>
+		<header class='d-flex opposite'>
+			<h1>Hardware Emulation</h1>
+			<%- include('partials/user.ejs') %>
+		</header>
+
+		<main>
+			<%- include('partials/nav.ejs') %>
+				<hr>
+
+				<section>
+					<div>
+						<p>
+							Hardware emulation is the use of one hardware device to mimic the function of another
+							hardware
+							device.
+						</p>
+						<p>
+							A hardware emulator is designed to simulate the workings of an entirely different hardware
+							platform than the one it runs on. Hardware emulation is generally used to debug and verify a
+							system under design.
+						</p>
+						<p>
+							An administrator must use hardware emulation if he needs to run an unsupported operating
+							system
+							(OS) within a virtual machine (VM). In such a scenario, the virtual machine does not have
+							direct
+							access to server hardware. Instead, an emulation layer directs traffic between physical and
+							virtual hardware. This is less efficient than paravirtualization, which allows for an
+							interface
+							to the virtual machine that can differ somewhat from that of the underlying hardware.
+						</p>
+						<figure>
+							<a href="https://www.rizzatti.com/2017/06/13/hardware-emulation-gets-smarter-with-save-and-restore-for-debug/"
+								target="_blank">
+								<img width="550px" src="images/hardware-emulation.jpg" alt="Hardware Emulation">
+							</a>
+						</figure>
+					</div>
+					<div>
+						<h4>Uses</h4>
+						<p>
+							Hardware emulation is the basis of system verification offering combined high verification
+							speed
+							and confidence on the achieved results. Tests can be performed with real-world I/O if the
+							rest
+							of the system exists, test vectors can be fed from mass storage devices, or test bench's can
+							be
+							compiled into the emulator to achieve comprehensive verification. Similarly, performance and
+							functionality verification can be implemented on the emulator. In addition, these methods
+							facilitate data collection over large sample sets, which are needed to validate bit error
+							rates
+							in high signal to noise ratio environments where the error rates can be extremely low. This
+							tight coupling of the hardware emulation even in the early stages of the design and its
+							implementation facilitate the primary goal of early performance evaluation.
+						</p>
+					</div>
+				</section>
+		</main>
+
+		<hr>
+		<footer>
+			<p>
+				CST 336: Internet Programming <br>
+				<span id="disclaimer">Disclaimer:</span> The information on this webpage is not accurate. <br>
+				It is used for academic purposes only.
+			</p>
+			<p>
+				<a href="https://searchservervirtualization.techtarget.com/definition/hardware-emulation"
+					target="_blank">Source 1</a>
+				<br>
+				<a href="http://bwrcs.eecs.berkeley.edu/Classes/EE225C/Papers/kimmo_soc.pdf" target="_blank">Source
+					2</a>
+			</p>
+			<figure>
+				<img width="150px" src="images/csumb_logo.png" alt="CSUMB Logo">
+			</figure>
+		</footer>
+
+
+	</body>
+
+</html>
